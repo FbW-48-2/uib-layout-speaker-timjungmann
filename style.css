@@ -199,8 +199,25 @@ footer {
     margin-bottom: 100px;
   }
 
+  .image-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 300px);
+    gap: 1.5rem;
+  }
+
+  .image1,
+  .image2,
+  .image3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .image-container div h2 {
-    margin-top: 90px;
-    margin-left: 15px;
+    font-size: 4rem;
+    display: inline;
+    margin: 0;
+    margin: 0;
   }
 }
